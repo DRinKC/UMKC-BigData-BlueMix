@@ -1,0 +1,10 @@
+---
+applications:
+- path: target/TomcatHelloWorldApp.war
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: TweetingBigData
+  host: bigdatatweeting
+  disk_quota: 1024M
+  buildpack: java_buildpack
